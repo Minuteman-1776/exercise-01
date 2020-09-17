@@ -11,6 +11,7 @@ function max(a, b){
         console.log('Both are equal');
     }
 };
+// console.log(max(a, b))
 
 
 function min(a, b){
@@ -22,6 +23,7 @@ function min(a, b){
         console.log('Both are equal');
     }
 };
+// console.log(min(a, b))
 
 
 function operation(a, b){
@@ -29,7 +31,7 @@ function operation(a, b){
     total = a*b/2;
     return total;
 };
-
+// console.log(operation(a, b))
 
 function modulo(a, b){
     if( a %2 === 0 ){
@@ -43,3 +45,4 @@ function modulo(a, b){
         console.log(b + ' Is an odd number');
     }
 }
+// console.log(modulo(a, b))
