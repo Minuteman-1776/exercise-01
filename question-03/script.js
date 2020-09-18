@@ -23,48 +23,8 @@ billTipCalculator(80)
 billTipCalculator(225)
 
 
+//gua ngerjain apa adanya ko wkwkw
 
 
 console.log(tips)
 console.log(finalPayments)
-
-// function billTipCalculator(value, tips){
-//     for( i = 0; i < bills.length; i++){
-//         if(value[i] < 50){
-//             tips.push(value)
-//             return bills;
-//         }else if(value[i] == 50 || bills[i] < 201){
-//             tips.push(value)
-//             return bills;
-//         }else if(value[i] > 200){
-//             tips.push(value)
-//             return bills;
-//         }else{
-//             console.log('No idea')
-//         }
-//     }
-// }
-// // billTipCalculator(40, tips);
-
-
-// var penumpang = ['Nicholas', undefined, 'Al'];
-// var tambahPenumpang = function(namaPenumpang, penumpang){
-//     if(penumpang.length == 0){
-//         penumpang.push(namaPenumpang);
-//         return penumpang;    
-//     }else{
-//         for(i = 0; i < penumpang.length; i++){
-//             if(penumpang[i] == undefined){
-//                 penumpang[i] = namaPenumpang;
-//                 return penumpang;
-//             }else if(penumpang[i] == namaPenumpang){
-//                 console.log(namaPenumpang + ' sudah ada di dalam angkot.')
-//                 return penumpang;
-//             }else if(i == penumpang.length -1){
-//                 penumpang.push(namaPenumpang);
-//                 return penumpang;
-//             }
-//         }
-//     }
-// }
-// tambahPenumpang('Gery', penumpang)
