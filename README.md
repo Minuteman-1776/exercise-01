@@ -12,6 +12,7 @@ You actually did good. However, some things could be improved:
 * Start learning to understand the questions and the instructions a bit better. In a way, it could help you further.
 * Start learning modern JavaScript (ES6+). I believe it will become useful in your future progression.
 * Use a code formatter like Prettier to make better styled code.
+* Follow a style guide like [AirBnB JavaScript Style Guide](https://github.com/airbnb/javascript) to make your code better.
 
 ## Question 1
 
