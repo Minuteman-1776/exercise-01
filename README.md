@@ -8,7 +8,7 @@ You actually did good. However, some things could be improved:
 
 * Stop giving up too quickly.
 * Quit pondering about how you should become. Instead, learn whatever your heart desires and push forward. Your time could be easily used to learn more things if you use that time to learn instead of pondering around aimlessly.
-* You have to learn how to Google certain keywords. When you managed to do it, you can become a better programmer.
+* You have to learn how to Google certain keywords. When you do it, you can become a better programmer.
 * Start learning to understand the questions and the instructions a bit better. In a way, it could help you further.
 * Start learning modern JavaScript (ES6+). I believe it will become useful in your future progression.
 * Use a code formatter like Prettier to make better styled code.
@@ -51,6 +51,7 @@ You did not create the function. Was there anything too hard? Anyway, here's my 
     mass: 55,
     height: 165,
     hobbies: ['Dating', 'Sports', 'Dancing'],
+    // Multiplied by 0.01 to convert centimeters to meters.
     bmi: function () {
       this.bmi = this.mass / (this.height * 0.01 * this.height * 0.01);
     },
@@ -62,7 +63,7 @@ You did not create the function. Was there anything too hard? Anyway, here's my 
 
 ### Printing BMI
 
-After you applied all the functions to each of the objects, then it is very simple to print them all to the console. Remember that after the 'bmi' function had been called, the 'bmi' attribute has been set.
+After you applied all the functions to each of the objects, then it is very simple to print them all to the console. Remember that after the `bmi` function had been called, the `bmi` attribute has been set.
 
 ```javascript
   console.log(person1.bmi, person2.bmi, person3.bmi, person4.bmi);
